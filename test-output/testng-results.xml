@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="140" passed="139" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-04T15:23:18Z" name="Default suite" finished-at="2024-01-04T15:25:10Z" duration-ms="111811">
+  <suite started-at="2024-01-10T13:12:29Z" name="Default suite" finished-at="2024-01-10T13:45:14Z" duration-ms="1964760">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-01-04T15:23:18Z" name="Default test" finished-at="2024-01-04T15:25:10Z" duration-ms="111811">
+    <test started-at="2024-01-10T13:12:29Z" name="Default test" finished-at="2024-01-10T13:45:14Z" duration-ms="1964760">
       <class name="cucumberOptions.TestNGTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-04T15:23:18Z" name="setUpClass" finished-at="2024-01-04T15:23:36Z" duration-ms="18081" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:12:29Z" name="setUpClass" finished-at="2024-01-10T13:12:41Z" duration-ms="11669" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@21733cbe]]>
+                <![CDATA[org.testng.TestRunner@2de07c57]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-04T15:23:37Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-04T15:25:09Z" duration-ms="92605" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:12:41Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:14:27Z" duration-ms="106407" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,2314 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-04T15:25:09Z" name="tearDownClass" finished-at="2024-01-04T15:25:10Z" duration-ms="1077" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:14:27Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:14:50Z" duration-ms="22754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:14:50Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:15:03Z" duration-ms="13640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:15:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:15:18Z" duration-ms="14509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:15:18Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:15:30Z" duration-ms="12347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:15:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:15:41Z" duration-ms="10810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:15:41Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:15:54Z" duration-ms="12941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:15:54Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:16:07Z" duration-ms="12514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:16:07Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:16:18Z" duration-ms="11711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:16:18Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:16:30Z" duration-ms="11860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:16:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:16:42Z" duration-ms="11861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:16:42Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:17:07Z" duration-ms="24948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:17:07Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:17:20Z" duration-ms="13386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:17:20Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:17:33Z" duration-ms="12151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:17:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:17:44Z" duration-ms="11031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:17:44Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:17:55Z" duration-ms="11206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:17:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:18:07Z" duration-ms="12359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:18:07Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:18:19Z" duration-ms="12290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:18:19Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:18:31Z" duration-ms="11455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:18:31Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:18:43Z" duration-ms="12085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:18:43Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:18:54Z" duration-ms="11174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:18:54Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:19:06Z" duration-ms="11620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:19:06Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:19:19Z" duration-ms="13288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:19:19Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:19:31Z" duration-ms="11525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:19:31Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:19:44Z" duration-ms="13019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:19:44Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:19:55Z" duration-ms="11631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:19:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:20:06Z" duration-ms="10876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:20:06Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:20:20Z" duration-ms="13594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:20:20Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:20:32Z" duration-ms="12618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:20:32Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:20:54Z" duration-ms="21569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:20:54Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:21:09Z" duration-ms="14760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:21:09Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:21:20Z" duration-ms="11153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Best seller Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:21:20Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:21:34Z" duration-ms="13839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:21:34Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:21:45Z" duration-ms="10850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:21:45Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:21:57Z" duration-ms="12214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:21:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:22:08Z" duration-ms="11291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:22:08Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:22:20Z" duration-ms="11450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:22:20Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:22:29Z" duration-ms="9643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:22:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:22:40Z" duration-ms="10712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:22:40Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:22:51Z" duration-ms="11490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:22:51Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:23:04Z" duration-ms="12755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:23:04Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:23:15Z" duration-ms="10406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:23:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:23:26Z" duration-ms="11070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:23:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:23:41Z" duration-ms="15524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:23:41Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:23:53Z" duration-ms="11820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:23:53Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:24:05Z" duration-ms="11466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:24:05Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:24:15Z" duration-ms="10364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:24:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:24:26Z" duration-ms="10715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:24:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:24:36Z" duration-ms="10692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:24:36Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:24:48Z" duration-ms="11817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:24:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:24:58Z" duration-ms="10232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Electronic Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:24:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:25:11Z" duration-ms="12414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the mobile Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:25:11Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:25:21Z" duration-ms="10539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the mobile Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:25:21Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:25:32Z" duration-ms="10275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the mobile Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:25:32Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:25:43Z" duration-ms="11519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the mobile Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:25:43Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:25:55Z" duration-ms="11491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the mobile Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:25:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:26:05Z" duration-ms="10718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:26:05Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:26:16Z" duration-ms="10175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:26:16Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:26:27Z" duration-ms="11319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:26:27Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:26:39Z" duration-ms="12178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:26:39Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:26:49Z" duration-ms="10095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:26:49Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:27:01Z" duration-ms="11789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:27:01Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:27:11Z" duration-ms="10271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:27:11Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:27:22Z" duration-ms="10210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:27:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:27:34Z" duration-ms="12119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:27:34Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:27:46Z" duration-ms="12480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:27:46Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:27:57Z" duration-ms="10508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:27:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:28:08Z" duration-ms="11707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:28:08Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:28:21Z" duration-ms="12275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:28:21Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:28:33Z" duration-ms="12128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:28:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:28:44Z" duration-ms="10876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:28:44Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:28:54Z" duration-ms="10431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:28:54Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:29:04Z" duration-ms="10023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:29:04Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:29:14Z" duration-ms="10186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:29:14Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:29:26Z" duration-ms="11297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:29:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:29:36Z" duration-ms="10081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:29:36Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:29:47Z" duration-ms="10938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:29:47Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:29:56Z" duration-ms="9864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:29:56Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:30:07Z" duration-ms="10178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:30:07Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:30:17Z" duration-ms="10705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:30:17Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:30:28Z" duration-ms="10203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the new releases Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:30:28Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:30:39Z" duration-ms="11056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:30:39Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:30:49Z" duration-ms="10264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:30:49Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:31:00Z" duration-ms="10863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:31:00Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:31:12Z" duration-ms="12131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:31:12Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:31:22Z" duration-ms="10381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:31:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:31:33Z" duration-ms="10418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:31:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:31:44Z" duration-ms="10844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:31:44Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:31:55Z" duration-ms="11834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:31:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:33:45Z" duration-ms="109708" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Featured categories"}
+  (Session info: chrome=120.0.6099.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3bc128941ebd1a903bc62dfc7e8e074, findElement {using=link text, value=Featured categories}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51073}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51073/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3bc128941ebd1a903bc62dfc7e8e074]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Featured categories"}
+  (Session info: chrome=120.0.6099.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3bc128941ebd1a903bc62dfc7e8e074, findElement {using=link text, value=Featured categories}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51073}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51073/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3bc128941ebd1a903bc62dfc7e8e074
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Pages.Login_page.clicksellerlink(Login_page.java:128)
+at stepDefinitions.Amazone_homepage_Steps.verify_that_the_Best_seller_Quick_access_link(Amazone_homepage_Steps.java:66)
+at ✽.user click on "Featured categories" link(file:///D:/Automation/Automation_Test/src/test/java/features/Home_page.feature:140)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:33:45Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:33:58Z" duration-ms="12873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:33:58Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:34:11Z" duration-ms="13183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:34:11Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:34:24Z" duration-ms="12959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:34:24Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:34:38Z" duration-ms="13363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:34:38Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:34:50Z" duration-ms="12728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:34:50Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:35:03Z" duration-ms="12329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:35:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:35:15Z" duration-ms="12225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:35:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:35:27Z" duration-ms="11805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:35:27Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:35:39Z" duration-ms="11907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:35:39Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:35:52Z" duration-ms="13485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:35:52Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:36:04Z" duration-ms="12350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:36:04Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:36:17Z" duration-ms="12806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:36:17Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:36:29Z" duration-ms="12109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:36:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:36:41Z" duration-ms="11721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:36:41Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:36:54Z" duration-ms="12379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:36:54Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:37:06Z" duration-ms="12620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:37:06Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:37:19Z" duration-ms="13253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:37:19Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:37:32Z" duration-ms="12922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:37:32Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:37:44Z" duration-ms="11884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:37:44Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:37:57Z" duration-ms="12550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:37:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:38:08Z" duration-ms="10890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:38:08Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:38:19Z" duration-ms="11598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:38:19Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:38:31Z" duration-ms="11722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:38:31Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:38:43Z" duration-ms="11870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:38:43Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:38:55Z" duration-ms="11923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:38:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:39:09Z" duration-ms="14230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:39:09Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:39:22Z" duration-ms="12898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:39:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:39:35Z" duration-ms="12770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:39:35Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:39:48Z" duration-ms="13166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:39:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:40:04Z" duration-ms="16399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:40:04Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:40:22Z" duration-ms="17943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:40:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:40:36Z" duration-ms="13714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:40:36Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:40:51Z" duration-ms="14674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:40:51Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:41:18Z" duration-ms="27200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:41:18Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:41:33Z" duration-ms="15562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:41:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:41:46Z" duration-ms="12721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:41:46Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:41:59Z" duration-ms="13204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:41:59Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:42:13Z" duration-ms="13584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:42:13Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:42:25Z" duration-ms="12089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:42:25Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:42:39Z" duration-ms="13740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:42:39Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:42:53Z" duration-ms="14372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:42:53Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:43:06Z" duration-ms="13083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:43:06Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:43:26Z" duration-ms="19549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:43:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:43:38Z" duration-ms="11974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:43:38Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:43:50Z" duration-ms="12052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:43:50Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:44:03Z" duration-ms="13389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:44:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:44:16Z" duration-ms="13076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:44:16Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:44:28Z" duration-ms="12130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:44:28Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:44:41Z" duration-ms="12742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:44:41Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T13:44:53Z" duration-ms="11974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the Home & Kitchen Quick access link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage tab verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@169bb4dd]" started-at="2024-01-10T13:44:53Z" name="tearDownClass" finished-at="2024-01-10T13:45:13Z" duration-ms="19882" status="FAIL">
+          <exception class="java.lang.OutOfMemoryError">
+            <message>
+              <![CDATA[Java heap space]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.OutOfMemoryError: Java heap space
+at java.base/java.util.Base64$Encoder.encodeToString(Base64.java:350)
+at io.cucumber.core.plugin.JsonFormatter.createEmbeddingMap(JsonFormatter.java:436)
+at io.cucumber.core.plugin.JsonFormatter.addEmbeddingToHookMap(JsonFormatter.java:341)
+at io.cucumber.core.plugin.JsonFormatter.handleEmbed(JsonFormatter.java:138)
+at io.cucumber.core.plugin.JsonFormatter$$Lambda/0x0000021b011d5e30.receive(Unknown Source)
+at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+at io.cucumber.core.eventbus.AbstractEventPublisher.sendAll(AbstractEventPublisher.java:36)
+at io.cucumber.core.plugin.CanonicalOrderEventPublisher.handle(CanonicalOrderEventPublisher.java:18)
+at io.cucumber.core.plugin.Plugins$$Lambda/0x0000021b011d4458.receive(Unknown Source)
+at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:44)
+at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:131)
+at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:118)
+at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:145)
+at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:57)
+at java.base/java.lang.invoke.LambdaForm$DMH/0x0000021b01086000.invokeVirtual(LambdaForm$DMH)
+at java.base/java.lang.invoke.LambdaForm$MH/0x0000021b0100a400.invoke(LambdaForm$MH)
+at java.base/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:153)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.OutOfMemoryError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

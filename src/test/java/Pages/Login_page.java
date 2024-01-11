@@ -64,6 +64,8 @@ public class Login_page extends TestBase {
 
 	}
 
+	
+	
 	public void releases() {
 		Releases.click();
 	}
