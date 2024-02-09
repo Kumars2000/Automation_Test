@@ -4,12 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import Actiondriver.Action;
+
 import util.Readconfig;
 import util.TestBase;
 
 public class Login_page extends TestBase {
-	Action action = new Action();
+	
 	Readconfig read = new Readconfig();
 	
 	
@@ -60,7 +60,7 @@ public class Login_page extends TestBase {
 //	Get the title
 	public void verifyTitle() {
 
-		System.out.println("Info : Title of the page is :  " + action.getTitle(getdriver()));
+		System.out.println("Info : Title of the page is :  " + getdriver().getTitle());
 
 	}
 

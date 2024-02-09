@@ -7,18 +7,16 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import Actiondriver.Action;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
-import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 import util.TestBase;
 
 public class Hooks extends TestBase {
-	Action action = new Action();
+
 	
 	@BeforeAll
 	
